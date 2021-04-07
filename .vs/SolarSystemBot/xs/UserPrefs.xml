@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{286565E6-9D58-4C40-99CD-4EEE2D71C97B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SolarSystemBot/command`s/GetMyIdCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SolarSystemBot/command`s/GetMyIdCommands.cs">
     <Files>
       <File FileName="SolarSystemBot/Program.cs" Line="19" Column="36" />
       <File FileName="SolarSystemBot/Config.cs" Line="7" Column="101" />
-      <File FileName="SolarSystemBot/command`s/GetMyIdCommand.cs" Line="2" Column="1" />
+      <File FileName="SolarSystemBot/command`s/commands.cs" Line="1" Column="1" />
+      <File FileName="SolarSystemBot/command`s/GetMyIdCommands.cs" Line="4" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,7 @@
           <Node name="SolarSystemBot" expanded="True">
             <Node name="SolarSystemBot" expanded="True">
               <Node name="command`s" expanded="True">
-                <Node name="GetMyIdCommand.cs" selected="True" />
+                <Node name="GetMyIdCommands.cs" selected="True" />
               </Node>
             </Node>
           </Node>
