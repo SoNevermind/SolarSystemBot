@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystemBot", "SolarSystemBot\SolarSystemBot.csproj", "{286565E6-9D58-4C40-99CD-4EEE2D71C97B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286565E6-9D58-4C40-99CD-4EEE2D71C97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286565E6-9D58-4C40-99CD-4EEE2D71C97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286565E6-9D58-4C40-99CD-4EEE2D71C97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286565E6-9D58-4C40-99CD-4EEE2D71C97B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A4BF46C-E24D-4E3B-B3AF-8A55B197F12B}
+	EndGlobalSection
+EndGlobal
