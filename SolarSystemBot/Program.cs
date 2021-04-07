@@ -20,6 +20,7 @@ namespace SolarSystemBot
             command.Add(new GetMyIdCommands());
             command.Add(new getchatidcommand());
 
+
             client.StartReceiving();
             client.OnMessage += OnMessageHendler;
             Console.WriteLine("[Log]: Bot started");
@@ -36,7 +37,14 @@ namespace SolarSystemBot
             if(message.Text != null)
             {
                 Console.WriteLine("[Log]: Пришло новое сообщение! От: " + message.From.FirstName + " " + message.From.LastName + " с текстом: " + message.Text);
-                await client.SendTextMessageAsync(message.Chat.Id, message.Text, replyToMessageId: message.MessageId);
+
+                foreach (var comm in command)
+                {
+                    if (comm.Contains(message.Text))
+                    {
+                        comm.Execute(message, client);
+                    }
+                }
             }
 
         }
