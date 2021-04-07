@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Telegram.Bot;
+using Telegram.Bot.Types;
 
 namespace SolarSystemBot.command_s
 {
@@ -10,7 +12,7 @@ namespace SolarSystemBot.command_s
 
         public override async void Execute(Message messege, TelegramBotClient client)
         {
-            await client.SendTextMessegAysync(messege.Chat.Id, $"ID данного чата: {messege.Chat.Id}");
+            await client.SendTextMessageAsync(messege.Chat.Id, $"ID данного чата: {messege.Chat.Id}");
         }
     }
 }
