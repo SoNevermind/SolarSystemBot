@@ -9,6 +9,7 @@ namespace SolarSystemBot
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Хуй");
         }
     }
 }
