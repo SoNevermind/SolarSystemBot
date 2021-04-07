@@ -2,7 +2,7 @@
 using Telegram.Bot;
 using Telegram.Bot.Args;
 using System.Collections.Generic;
-
+using SolarSystemBot.command_s;
 
 namespace SolarSystemBot
 {
