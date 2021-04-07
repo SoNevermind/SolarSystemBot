@@ -4705,31 +4705,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stasyao\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/nevernimdpieceofshit/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stasyao\\Desktop\\SolarSystemBot\\SolarSystemBot\\SolarSystemBot.csproj",
+      "projectUniqueName": "/Users/nevernimdpieceofshit/Projects/SolarSystemBot/SolarSystemBot/SolarSystemBot.csproj",
       "projectName": "SolarSystemBot",
-      "projectPath": "C:\\Users\\Stasyao\\Desktop\\SolarSystemBot\\SolarSystemBot\\SolarSystemBot.csproj",
-      "packagesPath": "C:\\Users\\Stasyao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stasyao\\Desktop\\SolarSystemBot\\SolarSystemBot\\obj\\",
+      "projectPath": "/Users/nevernimdpieceofshit/Projects/SolarSystemBot/SolarSystemBot/SolarSystemBot.csproj",
+      "packagesPath": "/Users/nevernimdpieceofshit/.nuget/packages/",
+      "outputPath": "/Users/nevernimdpieceofshit/Projects/SolarSystemBot/SolarSystemBot/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Stasyao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/nevernimdpieceofshit/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4768,7 +4761,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
