@@ -4,6 +4,7 @@ using System.Text;
 using Telegram.Bot;
 using Telegram.Bot.Types;
 
+
 namespace SolarSystemBot.command_s
 {
     class getchatidcommand : commands

@@ -1,17 +1,25 @@
 ﻿using System;
 using Telegram.Bot;
 using Telegram.Bot.Args;
+using System.Collections.Generic;
+
 
 namespace SolarSystemBot
 {
     class Program
     {
         private static TelegramBotClient client;
+        private static List<command_s.commands> command;
 
         static void Main(string[] args)
         {
 
             client = new TelegramBotClient(Config.Token);
+            command = new List<command_s.commands> ();
+            
+            command.Add(new GetMyIdCommands());
+            command.Add(new getchatidcommand());
+
             client.StartReceiving();
             client.OnMessage += OnMessageHendler;
             Console.WriteLine("[Log]: Bot started");

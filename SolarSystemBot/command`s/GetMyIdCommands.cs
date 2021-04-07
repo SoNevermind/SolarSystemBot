@@ -1,6 +1,7 @@
 ﻿using System;
 using Telegram.Bot.Types;
 using Telegram.Bot;
+using System.Collections.Generic;
 
 namespace SolarSystemBot.command_s
 {
